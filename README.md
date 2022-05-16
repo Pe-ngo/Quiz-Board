@@ -8,11 +8,11 @@ This project is on a quiz board webpage showing the end course test on JavaScrip
 
 ### Set-up Instructions
 
-- To access this webpage you need an internet and computer, then copy and paste the following link on your browser; https://pe-ngo.github.io/Second-Week-Project/
+- To access this webpage you need an internet and computer, then copy and paste the following link on your browser; https://pe-ngo.github.io/Quiz-Board/
 
 ### Link to the GitHub Pages
 
-- The link to the project on git-hub pages is https://pe-ngo.github.io/Second-Week-Project/
+- The link to the project on git-hub pages is https://pe-ngo.github.io/Quiz-Board/
 
 ### Sotwares Utilized
 
