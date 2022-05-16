@@ -1,5 +1,5 @@
 function studentScore(){
-    alert("Excellent")
+    //  alert("Excellent")
 }
 
 var question1=document.theForm.q1.value;
@@ -34,4 +34,38 @@ if(question10=="A"){result++}
 
 if(question1=="" || question2=="" || question3=="" || question4=="" || question5=="" || question6=="" || question7=="" || question8=="" || question9=="" || question10==""){
     alert("Answer All")
+}
+
+var finalScore=result*80;
+if (finalScore>=80){
+    displaytheForm.innerHTML="Your score" + finalscore + "%" + "Excellently passed"
+}
+
+else if(finalScore>=50 && finalScore<80){
+    displaytheForm.innerHTML="Your score" + finalscore + "%" + "Fairly passed"
+}
+
+else if(finalScore<50){
+    displaytheForm.innerHTML="Your score" + finalscore + "%" + "Scored poorly" + "Retake test"
+}
+
+
+function tutorComments(){
+    tutorComments=finalScore;
+
+var displayComments=document.getElementById("displayComments")
+
+//  displayComments.innerHTML=""
+
+if(tutorComments>=80){
+    displayComments.innerHTML="Excellent work"
+}
+
+else if(tutorComments>=50 && tutorComments<80){
+    displayComments.innerHTML="Fair work"
+}
+
+else if(tutorComments<50){
+    displayComments.innerHTML="Poor work"
+}
 }
