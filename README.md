@@ -1,4 +1,4 @@
-# QUIZ BOARD WEBSITE
+# QUIZ BOARD WEBPAGE
 
 ## By James Odiwuor
 
