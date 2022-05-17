@@ -44,17 +44,22 @@
                     <input type="radio" name="Q5" value="B"> For loop <br>
                     <input type="radio" name="Q5" value="C"> Else if <br>
 
-                    <input type="button" value="Submit" onclick="studentScore()">
+                    <input type="button" value="Submit" onclick="studentScore()" class="buton">
 
                 </form>
 
             </div>
 
         </div>
-        <div id="display">
-            <p id="displaytheForm">Display here</p>
-            <button onclick="tutorComments()"></button> <br>
-            <p id="displayComments"></p>
+        <div class="theAnswer" id="display">
+            <p class="result">Results </p> <br> <br>
+            Your Score: <br>
+            <p id="displaytheForm"></p> <br> <br>
+          <button onclick="tutorComments()">Comments <br>
+            
+        </button>
+          <p id="viewComments"></p>
+
         </div>
 
     </div>
