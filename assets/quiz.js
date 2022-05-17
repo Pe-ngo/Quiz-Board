@@ -36,7 +36,7 @@ if(question1=="" || question2=="" || question3=="" || question4=="" || question5
     alert("Answer All")
 }
 
-var finalScore=result*80;
+var finalScore=result*10;
 if (finalScore>=80){
     displaytheForm.innerHTML="Your score" + finalscore + "%" + "Excellently passed"
 }
@@ -46,7 +46,7 @@ else if(finalScore>=50 && finalScore<80){
 }
 
 else if(finalScore<50){
-    displaytheForm.innerHTML="Your score" + finalscore + "%" + "Scored poorly" + "Retake test"
+    displaytheForm.innerHTML="Your score" + fginalscore + "%" + "Scored poorly" + "Retake test"
 }
 
 
