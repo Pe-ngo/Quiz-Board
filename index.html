@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Board</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script defer src="./assets/quiz.js"></script>
 </head>
 <body>
     <div class="container">
@@ -18,28 +17,28 @@
 
             </div>
             <div class="questions">
-                <form action="" name="theForm">
-                    <p>1. What is JavaScript?</p>
+                <form action="" name="theForm" id="questionForm">
+                    <p>1.<strong>What is JavaScript?</strong></p>
                     <input type="radio" name="Q1" value="A"> Programming Language <br>
                     <input type="radio" name="Q1" value="B"> Markdown Language <br>
                     <input type="radio" name="Q1" value="C"> Hypertext <br>
 
-                    <p>2. Which of the following is not a data type?</p>
+                    <p>2.<strong>Which of the following is not a data type?</strong></p>
                     <input type="radio" name="Q2" value="A"> String <br>
                     <input type="radio" name="Q2" value="B"> Booleans <br>
                     <input type="radio" name="Q2" value="C"> Add <br>
 
-                    <p>3. Which of the following is an example of math operator?</p>
+                    <p>3.<strong>Which of the following is an example of math operator?</strong></p>
                     <input type="radio" name="Q3" value="A"> Concatenate <br>
                     <input type="radio" name="Q3" value="B"> Calculus <br>
                     <input type="radio" name="Q3" value="C"> Subtract <br>
 
-                    <p>4. What is the function of JavaScript?</p>
+                    <p>4.<strong>What is the function of JavaScript?</strong></p>
                     <input type="radio" name="Q4" value="A"> Style the website <br>
                     <input type="radio" name="Q4" value="B"> Make the website interactive <br>
                     <input type="radio" name="Q4" value="C"> Structure the website <br>
 
-                    <p>5. Which of the following is an example of a conditional statement?</p>
+                    <p>5.<strong>Which of the following is an example of a conditional statement?</strong></p>
                     <input type="radio" name="Q5" value="A"> Function <br>
                     <input type="radio" name="Q5" value="B"> For loop <br>
                     <input type="radio" name="Q5" value="C"> Else if <br>
@@ -52,16 +51,12 @@
 
         </div>
         <div class="theAnswer" id="display">
-            <p class="result">Results</p>
-            Your Score: <br>
-            <p id="displaytheForm"></p> <br>
-          <button onclick="tutorComments()">Comments <br>
-            
-        </button>
-          <p id="checkComments"></p>
-
+            <p class="result"><strong>Results</strong></p>
+        <strong>Your Score: </strong> <br>
+            <p id="displayForm"></p> <br>
         </div>
 
     </div>
+    <script src="./assets/quiz.js"></script>
 </body>
 </html>

@@ -3,9 +3,11 @@
     font-family: 'Poppins';
 }
 
-body{
+.container{
     background-color: blanchedalmond;
-    border: 0 1px solid white;
+    width: 500px;
+    height: 100%;
+    margin-left: 400px;
 }
 
 .title h1{
@@ -22,3 +24,12 @@ body{
     padding: 5px;
 }
 
+.buton{
+    margin-top: 5px;
+    margin-left: 115px;
+    background-color: aqua;
+}
+
+.theAnswer{
+    margin-left: 130px;
+}
